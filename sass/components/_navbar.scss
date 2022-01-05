@@ -6,9 +6,16 @@
         transition: all 0.2s;
         right: 0;
         top: 50%;
-        transform: translate(73%, -50%);
+        transform: translate(67%, -50%);
         z-index: 6;
         cursor: pointer;
+        box-shadow: 0 0 1rem rgba(255, 255, 255, 1);
+        padding: .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+        background-color: #fff;
 
         &-image {
             width: 3rem;
@@ -24,7 +31,7 @@
     }
 
     &-checkbox:checked~&-label {
-        transform: translate(-20.5rem, -50%) scale(1.5);
+        transform: translate(-20rem, -50%) scale(1.5);
     }
 
     &-menu {

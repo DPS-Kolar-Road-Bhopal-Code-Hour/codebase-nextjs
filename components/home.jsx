@@ -1,4 +1,4 @@
-import Head from 'next/head';
+
 const Home = (props) => {
     const cards = [{
         title: "Gaming",
@@ -15,12 +15,7 @@ const Home = (props) => {
         description: "As the industry looks to the future, one of its biggest concerns will be how to improve the whole travel experience and reduce some of the “pain points” that come with travel. I believe VR and AR could help with this. "
     }]
     return (<div className="index">
-        <Head>
-            <title>ARAP: Argumented Reality Awareness Program</title>
-            <link rel="stylesheet" href="index.css" />
-            <link rel="icon" href="/favicon.jpg" />
-            <link rel="stylesheet" href="navbar.css" />
-        </Head>
+      
         <div className="index-header">
             <div className="index-header-container">
                 <h1 className="index-header-title">
@@ -75,7 +70,6 @@ const Home = (props) => {
                         <a className="index-explore-container-link-back-link" target="_blank" href={card.link} rel="noreferrer"><span>EXPLORE</span></a>
                     </div>
                 </div>)}
-
             </div>
         </div>
     </div>)
