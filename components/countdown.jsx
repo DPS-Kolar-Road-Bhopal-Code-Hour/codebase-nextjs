@@ -1,7 +1,7 @@
 import React from 'react';
 let date = (new Date("2022/02/01")).getTime();
 let a = new Date(Math.abs(date - new Date().getTime()));
-let initial = [a.getDate().toString().length == 1 ? "0" + a.getDate().toString() : a.getDate(), a.getHours().length == 1 ? "0" + a.getHours().toString() : a.getHours(), a.getMinutes().length == 1 ? "0" + a.getMinutes().toString() : a.getMinutes(), a.getSeconds().toString().length === 1 ? "0" + a.getSeconds().toString() : a.getSeconds]
+let initial = [a.getDate().toString().length == 1 ? "0" + a.getDate().toString() : a.getDate(), a.getHours().toString().length === 1 ? "0" + a.getHours().toString() : a.getHours(), a.getMinutes().toString().length == 1 ? "0" + a.getMinutes().toString() : a.getMinutes(), a.getSeconds().toString().length === 1 ? "0" + a.getSeconds().toString() : a.getSeconds()]
 const Countdown = (props) => {
     const [state, setState] = React.useState(initial);
 
