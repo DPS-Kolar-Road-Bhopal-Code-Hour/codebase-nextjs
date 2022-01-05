@@ -251,6 +251,50 @@
   }
 }
 
+.countdown {
+  height: calc(100vh - 11rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.countdown-container {
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+@media (max-width: 480px) {
+  .countdown-container {
+    max-width: 80%;
+  }
+}
+.countdown-container-title {
+  font-size: 1.6rem;
+}
+.countdown-container-timer {
+  min-width: 44vw;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  font-size: 10rem;
+  color: #fff;
+  background-color: #000;
+}
+.countdown-container-timer span {
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .countdown-container-timer {
+    font-size: 7rem;
+  }
+}
+@media (max-width: 480px) {
+  .countdown-container-timer {
+    font-size: 4rem;
+  }
+}
+
 .footer {
   background-image: linear-gradient(to bottom right, #D8097E, #8C579C, #24468E);
   color: white;

@@ -1,0 +1,48 @@
+.countdown {
+    height: calc(100vh - 11rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-container {
+        box-shadow: 0 0 2rem rgba(0, 0, 0, 0.4);
+        border-radius: .5rem;
+        padding: 2rem;
+
+        @include respond(phone) {
+            // padding: .5rem;
+            max-width: 80%;
+        }
+
+        &-title {
+
+            font-size: 1.6rem;
+        }
+
+        &-timer {
+            min-width: 44vw;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+
+            span{
+                width: 100%;
+            }
+            @include respond(tablet) {
+                font-size: 7rem;
+
+            }
+
+            @include respond(phone) {
+                font-size: 4rem;
+
+            }
+
+            border-radius: .5rem;
+            padding: 2rem;
+            font-size: 10rem;
+            color: #fff;
+            background-color: #000;
+        }
+    }
+}
