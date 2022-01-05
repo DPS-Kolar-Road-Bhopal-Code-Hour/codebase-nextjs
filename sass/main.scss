@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+@import "./absolutes/variables";
+@import "./absolutes/mixins";
+@import "./absolutes/animations";
+
+
+@import "./components/home";
+@import "./components/timer";
+@import "./components/footer";
+@import "./components/research";
+@import "./components/navbar";
+
+@import "./utilities/basic";

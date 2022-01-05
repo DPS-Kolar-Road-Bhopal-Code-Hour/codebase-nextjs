@@ -2,15 +2,17 @@
   "name": "code-hour-palash",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"next dev\" \"sass ./sass/main.scss ./styles/globals.css --watch \"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "concurrently": "^7.0.0",
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sass": "^1.45.2"
   },
   "devDependencies": {
     "eslint": "8.6.0",

@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top left, #43cea2, #185a9d);
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+*{
+    &:not(p){
+        font-family: 'Spline Sans', sans-serif;
+    }
+}
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+html {
+
+    font-size: 10px;
+}

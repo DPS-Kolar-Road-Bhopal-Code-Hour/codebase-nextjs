@@ -1,0 +1,22 @@
+@keyframes fromBottom {
+    from {
+        transform: translate(0, 100vh) scale(0.7)
+    }
+
+    to {
+        transform: translate(0, 0) scale(1);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: translate(-50%, -50%) scale(1)
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.05)
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(1)
+    }
+}
