@@ -23,7 +23,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 11rem);
+  min-height: calc(100vh - 8rem);
+  padding: 4rem;
 }
 @media (max-width: 480px) {
   .upcoming {
