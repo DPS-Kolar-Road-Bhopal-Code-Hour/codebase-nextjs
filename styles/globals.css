@@ -40,7 +40,7 @@
   max-width: 80vw;
 }
 .upcoming-table-row {
-  text-align: center;
+  text-align: left;
   color: #f1f1ec;
   font-size: 1.9rem;
   cursor: pointer;
@@ -283,6 +283,10 @@
   transform: translate(-50%, -50%);
   position: absolute;
   z-index: 10;
+}
+.index-explore-container-link-back-link:hover {
+  transition: all 0.2s;
+  color: #fff;
 }
 .index-explore-container-link-back-link:hover::after {
   height: 100%;

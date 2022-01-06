@@ -15,14 +15,14 @@ const Home = (props) => {
         description: "As the industry looks to the future, one of its biggest concerns will be how to improve the whole travel experience and reduce some of the “pain points” that come with travel. I believe VR and AR could help with this. "
     }]
     return (<div className="index">
-      
+
         <div className="index-header">
             <div className="index-header-container">
                 <h1 className="index-header-title">
                     Welcome
                 </h1>
                 <h2 className="index-header-description">
-                    To the argumented Reality awareness program
+                    To the Augmented Reality awareness program
                 </h2>
             </div>
         </div>
@@ -30,27 +30,21 @@ const Home = (props) => {
             <h3 className="index-information-header">Current Developement</h3>
             <div className="index-information-container">
                 <p className="index-information-container-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis dolor rutrum libero bibendum
-                    sodales. Nulla ac maximus ipsum. Cras dignissim nulla libero, quis semper justo facilisis facilisis.
-                    Nulla nec gravida ex. Vestibulum condimentum laoreet mi, eu ultrices lacus imperdiet at. Nunc tempus
-                    nunc eu semper rhoncus. Aenean faucibus, orci id lobortis rhoncus, elit justo dignissim turpis, ac
-                    pellentesque enim dui aliquet massa. In maximus risus a porttitor maximus. In eget erat a nisi
-                    sollicitudin suscipit. Nulla urna dolor, venenatis eu arcu quis, pharetra commodo nibh. Ut rutrum,
-                    mi feugiat condimentum luctus, metus neque tempor massa, condimentum mollis ipsum lacus sollicitudin
-                    lacus.
-
-
+                    {`Augmented Reality, or AR as it's usually referred to, is a way to incorporate and enhance natural surroundings
+                    with virtual objects. It is the next natural step in the evolution of interactive technologies, which would facilitate,
+                    or does facilitate, many revolutionary technologies. For instance, the advent of the metaverse, and similar
+                    technologies, would allow millions of people access to effective schools, workspaces, and so on; furthermore,
+                    it could enable people to travel to destinations without the inconvenience of traditional travel. Multinational
+                    corporations - such as Meta, snap, and Apple - are currently developing AR technologies that would enable us to
+                    live a life that we've only yet glimpsed in science fiction.`}
                 </p>
                 <p className="index-information-container-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis dolor rutrum libero bibendum
-                    sodales. Nulla ac maximus ipsum. Cras dignissim nulla libero, quis semper justo facilisis facilisis.
-                    Nulla nec gravida ex. Vestibulum condimentum laoreet mi, eu ultrices lacus imperdiet at. Nunc tempus
-                    nunc eu semper rhoncus. Aenean faucibus, orci id lobortis rhoncus, elit justo dignissim turpis, ac
-                    pellentesque enim dui aliquet massa. In maximus risus a porttitor maximus. In eget erat a nisi
-                    sollicitudin suscipit. Nulla urna dolor, venenatis eu arcu quis, pharetra commodo nibh. Ut rutrum,
-                    mi feugiat condimentum luctus, metus neque tempor massa, condimentum mollis ipsum lacus sollicitudin
-                    lacus.
-
+                    {`Virtual Reality, or VR as it's usually referred to, is a simulated experience intended to seem as if it was real. 
+                    Meta, or Facebook as it was previously known, and HTC are leaders in the virtual reality industry; spending years 
+                    and billions of dollars on the tech. The applications of VR are way more diverse than just leisurely activities: VR 
+                    has proven to be highly efficient in training military personnel with little to no risk of bodily harm, provided a
+                    method for schools to conduct online classes, and allowed businesses to conduct virtual meetings. As evident, the
+                    latter examples potentially helped save many lives during the tragic Covid19 pandemic.`}
                 </p>
             </div>
             <img className="index-information-image" src="/mountain.webp" />

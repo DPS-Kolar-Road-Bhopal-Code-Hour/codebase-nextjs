@@ -7,17 +7,17 @@ const Navbar = (props) => {
     const router = useRouter()
     return (<div className="navbar"><input className='navbar-checkbox' type="checkbox" id="1" /> <label className='navbar-label' htmlFor="1"><img className='navbar-label-image' src='/menu_icon.png'></img></label>
         <Head>
-            <title>ARAP: Argumented Reality Awareness Program</title>
+            <title>ARAP: Augmented Reality Awareness Program</title>
             <link rel="stylesheet" href="index.css" />
             <link rel="icon" href="/favicon.jpg" />
             <link rel="stylesheet" href="navbar.css" />
             <meta name="og:image" content="/favicon.jpg" />
-            <meta name="description" content="ARAP: Argumented Reality Awareness Program is a project prepared by the students of DPS Kolar Road Bhopal's Palash house to raise awareness about the upcoming developments in the field of AR and VR."></meta>
+            <meta name="description" content="ARAP: Augmented Reality Awareness Program is a project prepared by the students of DPS Kolar Road Bhopal's Palash house to raise awareness about the upcoming developments in the field of AR and VR."></meta>
         </Head>
         <div className='navbar-menu'>
             <div className='navbar-menu-heading' onClick={()=>router.push('/')}>
                 <h1 className='navbar-menu-heading-title'>ARAP</h1>
-                <h4 className='navbar-menu-heading-description'>Argumented  Reality Awareness Program</h4>
+                <h4 className='navbar-menu-heading-description'>Augmented Reality Awareness Program</h4>
             </div>
             <div className='navbar-menu-links'>
 

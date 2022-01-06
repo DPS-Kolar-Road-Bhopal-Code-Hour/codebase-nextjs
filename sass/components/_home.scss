@@ -44,10 +44,12 @@
         height: 100vh;
         position: relative;
         background-color: #000;
-        @include respond(tablet){
-            padding:1;
+
+        @include respond(tablet) {
+            padding: 1;
             height: auto;
         }
+
         @include respond(phone) {
             padding: 2rem;
             height: auto;
@@ -63,10 +65,11 @@
             text-align: center;
 
             /* top: 0vh; */
-            @include respond(tablet){
+            @include respond(tablet) {
                 top: 80%;
                 width: 80vw;
             }
+
             @include respond(phone) {
                 top: 92%;
                 width: 80vw;
@@ -242,6 +245,9 @@
                         }
 
                         &:hover {
+                            transition: all 0.2s;
+                            color: #fff;
+
                             &::after {
                                 height: 100%;
                             }
