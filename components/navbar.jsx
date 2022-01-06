@@ -11,6 +11,8 @@ const Navbar = (props) => {
             <link rel="stylesheet" href="index.css" />
             <link rel="icon" href="/favicon.jpg" />
             <link rel="stylesheet" href="navbar.css" />
+            <meta name="og:image" content="/favicon.jpg" />
+            <meta name="description" content="ARAP: Argumented Reality Awareness Program is a project prepared by the students of DPS Kolar Road Bhopal's Palash house to raise awareness about the upcoming developments in the field of AR and VR."></meta>
         </Head>
         <div className='navbar-menu'>
             <div className='navbar-menu-heading' onClick={()=>router.push('/')}>
